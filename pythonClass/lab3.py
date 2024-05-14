@@ -1,30 +1,30 @@
 counter = 0
 #Первый вопрос
-answer = input("Столица России?\n")
-if answer == "Москва" or answer == "москва":
+answer = input("В каком мы городе?\n")
+if answer == "Таганрог" or answer == "таганрог":
  counter = counter + 1
- print("вы ответили верно")
+ print("Вы ответили верно!")
 else:
- print("вы ответили не верно")
+ print("вы ответили не верно!")
 #Второй вопрос
 answer = input("Какой язык мы изучаем?\n")
-if answer == "Python" or answer == "Пайтон":
+if answer == "Python" or answer == "Питон":
  counter = counter + 1
- print("вы ответили верно")
+ print("Вы ответили верно!")
 else:
- print("вы ответили не верно")
+ print("Вы ответили не верно!")
 #Третий вопрос
-answer = input("2 * 2?\n")
-if answer == "4" or answer == "Четыре":
+answer = input("Вы человек?\n")
+if answer == "Да" or answer == "да":
  counter = counter + 1
- print("вы ответили верно")
+ print("Вы ответили верно!")
 else:
- print("вы ответили не верно")
+ print("Вы ответили не верно!")
  #Четвертый вопрос
-answer = input("Как звали отца Пушкина?\n")
-if answer == "Сергей" or answer == "сергей":
+answer = input("Hello, ???\n")
+if answer == "World" or answer == "world":
  counter = counter + 1
- print("вы ответили верно")
+ print("Вы ответили верно!")
 else:
- print("вы ответили не верно")
-print(f"вы набрали баллов {counter}")
+ print("Вы ответили не верно!")
+print(f"Вы набрали {counter} баллов")
