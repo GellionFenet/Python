@@ -62,7 +62,7 @@ class Vehicle(pygame.sprite.Sprite):
     def __init__(self, image, x, y):
         pygame.sprite.Sprite.__init__(self)
         
-        # scale the image down so it's not wider than the lane
+        # уменьшение масштаба изображения, чтобы оно было не шире полосы движения
         image_scale = 45 / image.get_rect().width
         new_width = image.get_rect().width * image_scale
         new_height = image.get_rect().height * image_scale
